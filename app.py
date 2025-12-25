@@ -32,7 +32,11 @@ def input_image_setup(uploaded_file):
 
 ##initialize our streamlit app frontend
 
-st.set_page_config(page_title="Calories Advisor App")
+st.set_page_config(
+  page_title="Calories Advisor App",
+  page_icon=":rocket:",
+  layout="centered"
+  )
 
 st.header("Calories Advisor App")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
