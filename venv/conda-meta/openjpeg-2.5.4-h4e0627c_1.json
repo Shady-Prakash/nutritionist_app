@@ -1,0 +1,66 @@
+{
+  "build": "h4e0627c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "lcms2 >=2.16,<3.0a0",
+    "libgcc-ng >=11.2.0",
+    "libopenjpeg 2.5.4 hee96239_1",
+    "libpng >=1.6.50,<1.7.0a0",
+    "libtiff >=4.7.0,<5.0a0",
+    "zlib >=1.2.13,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/prakash/anaconda3/pkgs/openjpeg-2.5.4-h4e0627c_1",
+  "features": "",
+  "files": [
+    "bin/opj_compress",
+    "bin/opj_decompress",
+    "bin/opj_dump"
+  ],
+  "fn": "openjpeg-2.5.4-h4e0627c_1.tar.bz2",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/prakash/anaconda3/pkgs/openjpeg-2.5.4-h4e0627c_1",
+    "type": 1
+  },
+  "md5": "89763f53802a4e24e3c9c9d23fb7b9d7",
+  "name": "openjpeg",
+  "package_tarball_full_path": "/home/prakash/anaconda3/pkgs/openjpeg-2.5.4-h4e0627c_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/opj_compress",
+        "path_type": "hardlink",
+        "sha256": "e74cd4020115fa74b3462f4ad4c49216c42fe21da7c136605460a52509eddfc2",
+        "sha256_in_prefix": "e74cd4020115fa74b3462f4ad4c49216c42fe21da7c136605460a52509eddfc2",
+        "size_in_bytes": 123440
+      },
+      {
+        "_path": "bin/opj_decompress",
+        "path_type": "hardlink",
+        "sha256": "c493959050cd391335c962d186ff3cc3fa7327b2dc3986846486ae638d206786",
+        "sha256_in_prefix": "c493959050cd391335c962d186ff3cc3fa7327b2dc3986846486ae638d206786",
+        "size_in_bytes": 115040
+      },
+      {
+        "_path": "bin/opj_dump",
+        "path_type": "hardlink",
+        "sha256": "824a41fcbf109c9aae0f49302e4de74e7fb9592466f7411f4101187fa5b366fa",
+        "sha256_in_prefix": "824a41fcbf109c9aae0f49302e4de74e7fb9592466f7411f4101187fa5b366fa",
+        "size_in_bytes": 27616
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "17fc842fef2bf4bbbe9ad5e6fd8026b03fe124a9028d85a40cb01c3f420e8491",
+  "size": 112668,
+  "subdir": "linux-64",
+  "timestamp": 1761732755896,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/openjpeg-2.5.4-h4e0627c_1.tar.bz2",
+  "version": "2.5.4"
+}

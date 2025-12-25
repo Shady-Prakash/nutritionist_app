@@ -1,0 +1,11 @@
+prefix=/home/prakash/AI_ML_projects/gen_AI/nutritionist_app/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/prakash/AI_ML_projects/gen_AI/nutritionist_app/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

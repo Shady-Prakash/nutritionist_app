@@ -1,0 +1,7 @@
+prefix=/home/prakash/AI_ML_projects/gen_AI/nutritionist_app/venv
+includedir=${prefix}/include
+ 
+Name: PresentProto
+Description: Present extension headers
+Version: 1.4
+Cflags: -I${includedir}
